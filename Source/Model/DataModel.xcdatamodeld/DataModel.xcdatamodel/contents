@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A603" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES" codeGenerationType="class">
+        <attribute name="complete" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="parentTray" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tray" inverseName="items" inverseEntity="Tray"/>
+    </entity>
+    <entity name="Tray" representedClassName=".Tray" syncable="YES" codeGenerationType="class">
+        <attribute name="color" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Item" inverseName="parentTray" inverseEntity="Item"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="172.21484375" positionY="56.1953125" width="128" height="88"/>
+        <element name="Tray" positionX="-65.70703125" positionY="34.609375" width="128" height="88"/>
+    </elements>
+</model>
