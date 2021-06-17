@@ -4,9 +4,9 @@
 
 ## NOTICE
 Unfortunately, Trayful is no longer available on the AppStore. The final statistics for Trayful during its one year life on the AppStore are as follows:
-**Units**     : 3.00K
-**Sales**     : $73.19
-**Ad-Revenue**: $24.68
+* **Units**     : 3.00K
+* **Sales**     : $73.19
+* **Ad-Revenue**: $24.68
 
 ## What is Trayful?
 
