@@ -2,17 +2,21 @@
 
 ---
 
-## Project Description
+## NOTICE
+Unfortunately, Trayful is no longer available on the AppStore. The final statistics for Trayful during its one year life on the AppStore are as follows:
+**Units**     : 3.00K
+**Sales**     : $73.19
+**Ad-Revenue**: $24.68
+
+## What is Trayful?
 
 Trayful is a to-do application/task manager that aims to create a graphically pleasing *user-interface* and smooth *user-experience* while still maintaining *function*. Designed with the user in mind, Trayful implements easy-to-use interfaces complete with intuitive gestures and flush animations.
-
-App Store: [Trayful](https://apps.apple.com/us/app/trayful/id1493406600) (available for iPhone)
 
 Trayful was developed completely programmatically in `Swift 5.2`, which I prefer over storyboard as I find it much more controllable from an interface standpoint.
 
 > **var** storyboard = **false**
 
-To view what was added, changed, or removed in each version of Trayful, please view the [changelog](https://github.com/greysonDEV/Trayful-Public/blob/main/CHANGELOG.md).
+To view what was added, changed, or removed in each version of Trayful, please view the [changelog](https://github.com/greysonDEV/Trayful/blob/master/CHANGELOG.md).
 
 ## Frameworks
 
@@ -29,7 +33,8 @@ To view what was added, changed, or removed in each version of Trayful, please v
 
 ## Notes
 
-Trayful was not meant to be listed publicly on GitHub. Because of this, the source code will not provide an "out-of-the-box" download, as some files were excluded in an effort to protect sensitive information.
+This repository does not include the entire source code due to sensitive information.\
+Because of this, the source code will not provide an "out-of-the-box" download, as some files were excluded in an effort to protect sensitive information.
 
 ---
 
@@ -40,4 +45,3 @@ http://greysondev.github.io/trayfulsupport
 
 #### Privacy Policy
 http://greysondev.github.io/trayfulprivacy
-
